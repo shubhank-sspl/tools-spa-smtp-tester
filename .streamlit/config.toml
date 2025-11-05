@@ -1,0 +1,26 @@
+# .streamlit/config.toml
+
+[theme]
+# Primary color for buttons, links, etc. (e.g., a nice dark blue)
+primaryColor="#4A90E2" 
+
+# Background color of the main content area (e.g., a light off-white)
+backgroundColor="#F9F9F9" 
+
+# Background color of the sidebar and secondary containers (e.g., a true white)
+secondaryBackgroundColor="#FFFFFF" 
+
+# Color for text
+textColor="#333333" 
+
+# Font family for the app
+# Use 'sans serif' for a clean, modern look
+font="sans serif" 
+
+[server]
+# Set a server timeout to a generous 60 seconds (default is 10)
+# This prevents timeouts during long connection attempts or authentication delays.
+# In this specific app, the SMTP timeout is handled in the Python code, 
+# but this is a good practice for general apps.
+# The default is usually fine, but included here for completeness.
+# fileWatcherType = "poll"
